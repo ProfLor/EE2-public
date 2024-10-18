@@ -240,7 +240,7 @@ $$
 1. What do you notice about the products in [exercise 2.2](ref:Ex22)?
 
     ```{toggle}	
-    > The matrices are not commutative, i.e., $M_1\cdot M_2 \neq M_2\cdot M_1$.
+    > The matrices are not commutative, i.e., $M_\mathrm{i}\cdot M_\mathrm{j} \neq M_\mathrm{i}\cdot M_\mathrm{i}$.
 
     (ref:Ex23)=
 1. Compare the two products $\left(M_1\cdot M_2\right)\cdot M_3$ and $M_1\cdot \left(M_2\cdot M_3\right)$.
