@@ -12,10 +12,9 @@ kernelspec:
   language: python
   name: python3
 ---
+# Tutorial
 
-# Tutorial 01
-
-## Repetition of Matrix Calculus
+## Tutorial 01 -- Repetition of Matrix Calculus
 
 ---
 

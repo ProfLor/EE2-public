@@ -4,4 +4,6 @@
 format: jb-book
 root: intro
 chapters:
-- file: tutorial/Tutorial_01
+- file: tutorial/tutorial
+  section:
+  - file: tutorial/Tutorial_01
