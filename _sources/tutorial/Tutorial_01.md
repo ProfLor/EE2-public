@@ -252,6 +252,8 @@ $$
     -C&A
     \end{bmatrix}
     $$
+    ```
+
     ```{toggle}
     > $$
     M_2^{-1}=
@@ -261,6 +263,8 @@ $$
     -G&E
     \end{bmatrix}
     $$
+    ```
+
     ```{toggle}
     > $$
     M_3^{-1}=
@@ -270,6 +274,8 @@ $$
     -K&I
     \end{bmatrix}
     $$
+    ```
+
     ```{toggle}
     > $$
     > M_4^{-1}=
@@ -425,6 +431,7 @@ $$
     \end{bmatrix}
     $$
     ```
+
     (ref:ex42)=
 1. Please expand the following equation systems into ordinary equations:
     ::::{grid}
@@ -466,6 +473,7 @@ $$
     \end{bmatrix}
     $$
     :::
+
     ```{toggle}
     > $$
     \begin{align*}
@@ -485,7 +493,7 @@ $$
     ```
 
 1. Write the following equations in matrix notation. The voltages U1 and U2 and the currents I1 and I2 should be represented as column vectors which are connected by a resistance or an admittance matrix (see [exercise 4.2](ref:ex42)):
-     ::::{grid}
+    ::::{grid}
     :gutter: 2
 
     :::{grid-item-card}
@@ -522,9 +530,11 @@ $$
     I_1\\
     I_2
     \end{bmatrix}
+    $$
     ```
 
     ```{toggle}
+    $$
     \begin{bmatrix}
     I_1\\
     I_2
