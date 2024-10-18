@@ -616,6 +616,6 @@ $$
 
 1. Compare the inverse resistance matrix with the original admittance matrix, and the inverse admittance matrix with the original resistance matrix.
 
-    ```{toggle}
-    >The inverse resistance matrix is the same as the original conductance matrix, and the inverse conductance matrix is the same as the original resistance matrix.
-    ```
+   ```{toggle}
+    > The inverse resistance matrix is the same as the original conductance matrix, and the inverse conductance matrix is the same as the original resistance matrix.
+   ```
