@@ -404,6 +404,11 @@ document.write(`
 <h2>Repetition of Matrix Calculus<a class="headerlink" href="#repetition-of-matrix-calculus" title="Link to this heading">#</a></h2>
 <hr class="docutils" />
 <p>The purpose of this tutorial is to repeat basic matrix calculus operations. The following 2 x 2 matrices are provided in general form:</p>
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row sd-g-4 sd-g-xs-4 sd-g-sm-4 sd-g-md-4 sd-g-lg-4 docutils">
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
+<div class="sd-card-body docutils">
 <div class="math notranslate nohighlight">
 \[\begin{split}
 M_1=
@@ -411,25 +416,54 @@ M_1=
 A&amp;B\\
 C&amp;D
 \end{bmatrix}
-\quad
+\end{split}\]</div>
+</div>
+</div>
+</div>
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
+<div class="sd-card-body docutils">
+<div class="math notranslate nohighlight">
+\[\begin{split}
 M_2=
 \begin{bmatrix}
 E&amp;F\\
 G&amp;H
 \end{bmatrix}
-\quad
+\end{split}\]</div>
+</div>
+</div>
+</div>
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
+<div class="sd-card-body docutils">
+<div class="math notranslate nohighlight">
+\[\begin{split}
 M_3=
 \begin{bmatrix}
 I&amp;J\\
 K&amp;L
 \end{bmatrix}
-\quad
+\end{split}\]</div>
+</div>
+</div>
+</div>
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
+<div class="sd-card-body docutils">
+<div class="math notranslate nohighlight">
+\[\begin{split}
 M_4=
 \begin{bmatrix}
 D&amp;-B\\
 -C&amp;A
 \end{bmatrix}
 \end{split}\]</div>
+</div>
+</div>
+</div>
+</div>
+</div>
 <section id="exercise-1-matrix-addition">
 <h3>Exercise 1: Matrix addition<a class="headerlink" href="#exercise-1-matrix-addition" title="Link to this heading">#</a></h3>
 <ol class="arabic">
@@ -516,6 +550,7 @@ C \cdot E + D \cdot G &amp; C \cdot F + D \cdot H
 \end{bmatrix}
 \end{split}\]</div>
 </div></blockquote>
+</div>
 <div class="toggle docutils container">
 <blockquote>
 <div><div class="math notranslate nohighlight">
@@ -526,6 +561,7 @@ C \cdot I + D \cdot K &amp; C \cdot J + D \cdot L
 \end{bmatrix}
 \end{split}\]</div>
 </div></blockquote>
+</div>
 <div class="toggle docutils container">
 <blockquote>
 <div><div class="math notranslate nohighlight">
@@ -537,6 +573,7 @@ G \cdot I + H \cdot K &amp; G \cdot J + H \cdot L
 \end{bmatrix}
 \end{split}\]</div>
 </div></blockquote>
+</div>
 <div class="toggle docutils container">
 <blockquote>
 <div><div class="math notranslate nohighlight">
@@ -548,6 +585,7 @@ E \cdot K + G \cdot L &amp; F \cdot K + H \cdot L
 \end{bmatrix}
 \end{split}\]</div>
 </div></blockquote>
+</div>
 <div class="toggle docutils container">
 <blockquote>
 <div><div class="math notranslate nohighlight">
@@ -564,6 +602,7 @@ A \cdot D - B \cdot C &amp; 0 \\
 \end{bmatrix}
 \end{split}\]</div>
 </div></blockquote>
+</div>
 <div class="toggle docutils container">
 <blockquote>
 <div><div class="math notranslate nohighlight">
@@ -580,11 +619,6 @@ A \cdot D - B \cdot C &amp; 0 \\
 \end{bmatrix}
 \end{split}\]</div>
 </div></blockquote>
-</div>
-</div>
-</div>
-</div>
-</div>
 </div>
 </li>
 <li><p>Compare the two products <span class="math notranslate nohighlight">\(\left(M_1\cdot M_2\right)\cdot M_3\)</span> and <span class="math notranslate nohighlight">\(M_1\cdot \left(M_2\cdot M_3\right)\)</span>.</p>
@@ -745,40 +779,63 @@ A \cdot D - B \cdot C &amp; 0\\
 <h3>Exercise 4: Equation systems<a class="headerlink" href="#exercise-4-equation-systems" title="Link to this heading">#</a></h3>
 <ol class="arabic">
 <li><p>What are the results of the following multiplication operations?</p>
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row sd-g-3 sd-g-xs-3 sd-g-sm-3 sd-g-md-3 sd-g-lg-3 docutils">
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
+<div class="sd-card-body docutils">
 <div class="math notranslate nohighlight">
 \[\begin{split}
-    \begin{bmatrix}
-    A&amp;B\\\
-    C&amp;D
-    \end{bmatrix}
-    \cdot
-    \begin{bmatrix}
-    X\\Y
-    \end{bmatrix}
-    =
-    \quad\quad\quad
-    \begin{bmatrix}
-    R_1+R_2&amp;R_2\\
-    R_2&amp;R_2+R_3
-    \end{bmatrix}
-    \cdot
-    \begin{bmatrix}
-    I_1\\
-    I_2
-    \end{bmatrix}
-    =
-    \quad\quad\quad
-    \begin{bmatrix}
-    G_1+G_2&amp;-G_1\\
-    -G_2&amp;G_2+G_3
-    \end{bmatrix}
-    \cdot
-    \begin{bmatrix}
-    U_1\\
-    U_2
-    \end{bmatrix}
-    =
-    \end{split}\]</div>
+\begin{bmatrix}
+A&amp;B\\\
+C&amp;D
+\end{bmatrix}
+\cdot
+\begin{bmatrix}
+X\\Y
+\end{bmatrix}
+\end{split}\]</div>
+</div>
+</div>
+</div>
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
+<div class="sd-card-body docutils">
+<div class="math notranslate nohighlight">
+\[\begin{split}
+\begin{bmatrix}
+R_1+R_2&amp;R_2\\
+R_2&amp;R_2+R_3
+\end{bmatrix}
+\cdot
+\begin{bmatrix}
+I_1\\
+I_2
+\end{bmatrix}
+\end{split}\]</div>
+</div>
+</div>
+</div>
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
+<div class="sd-card-body docutils">
+<div class="math notranslate nohighlight">
+\[\begin{split}
+\begin{bmatrix}
+G_1+G_2&amp;-G_1\\
+-G_2&amp;G_2+G_3
+\end{bmatrix}
+\cdot
+\begin{bmatrix}
+U_1\\
+U_2
+\end{bmatrix}
+\end{split}\]</div>
+</div>
+</div>
+</div>
+</div>
+</div>
 <div class="toggle docutils container">
 <blockquote>
 <div><div class="math notranslate nohighlight">
@@ -843,37 +900,53 @@ C\cdot X+D\cdot Y
 </div>
 </li>
 <li id="ref-ex42"><p>Please expand the following equation systems into ordinary equations:</p>
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row sd-g-2 sd-g-xs-2 sd-g-sm-2 sd-g-md-2 sd-g-lg-2 docutils">
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
+<div class="sd-card-body docutils">
 <div class="math notranslate nohighlight">
 \[\begin{split}
-    \begin{bmatrix}
-    U_1\\U_2
-    \end{bmatrix}
-    =
-    \begin{bmatrix}
-    R_1+R_2&amp;R_2\\
-    R_2&amp;R_2
-    \end{bmatrix}
-    \cdot
-    \begin{bmatrix}
-    I_1\\
-    I_2
-    \end{bmatrix}
-    \quad\quad\quad
-    \begin{bmatrix}
-    I_1\\
-    I_2
-    \end{bmatrix}
-    =
-    \begin{bmatrix}
-    G_1&amp;-G_1\\
-    -G_1&amp;G_1+G_2
-    \end{bmatrix}
-    \cdot
-    \begin{bmatrix}
-    U_1\\
-    U_2
-    \end{bmatrix}
-    \end{split}\]</div>
+\begin{bmatrix}
+U_1\\U_2
+\end{bmatrix}
+=
+\begin{bmatrix}
+R_1+R_2&amp;R_2\\
+R_2&amp;R_2
+\end{bmatrix}
+\cdot
+\begin{bmatrix}
+I_1\\
+I_2
+\end{bmatrix}
+\end{split}\]</div>
+</div>
+</div>
+</div>
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
+<div class="sd-card-body docutils">
+<div class="math notranslate nohighlight">
+\[\begin{split}
+\begin{bmatrix}
+I_1\\
+I_2
+\end{bmatrix}
+=
+\begin{bmatrix}
+G_1&amp;-G_1\\
+-G_1&amp;G_1+G_2
+\end{bmatrix}
+\cdot
+\begin{bmatrix}
+U_1\\
+U_2
+\end{bmatrix}
+\end{split}\]</div>
+</div>
+</div>
+</div>
 <div class="toggle docutils container">
 <blockquote>
 <div><div class="math notranslate nohighlight">
@@ -896,67 +969,105 @@ I_2&amp;=-G_1\cdot U_1+\left(G_1+G_2\right)\cdot U_2
 \end{split}\]</div>
 </div></blockquote>
 </div>
+</div>
+</div>
 </li>
 <li><p>Write the following equations in matrix notation. The voltages U1 and U2 and the currents I1 and I2 should be represented as column vectors which are connected by a resistance or an admittance matrix (see <a class="reference internal" href="#ref-ex42"><span class="std std-ref">exercise 4.2</span></a>):</p>
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row sd-g-2 sd-g-xs-2 sd-g-sm-2 sd-g-md-2 sd-g-lg-2 docutils">
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
+<div class="sd-card-body docutils">
 <div class="math notranslate nohighlight">
 \[\begin{split}
-    \begin{align*}
-    U_1&amp;=R_1\cdot I_1+R_2\cdot I_1+R_2\cdot I_2 \quad\quad\quad&amp;I_1&amp;=G_1\cdot U_1+G_2\cdot \left(U_1-U_2\right)\\
-    U_2&amp;=R_2\cdot I_2+R_3\cdot I_2+R_2\cdot I_1 &amp;I_2&amp;=G_3\cdot U_2+G_2\cdot \left( U_2- U_1\right)
-    \end{align*}
-    \end{split}\]</div>
+\begin{align*}
+U_1&amp;=R_1\cdot I_1+R_2\cdot I_1+R_2\cdot I_2\\
+U_2&amp;=R_2\cdot I_2+R_3\cdot I_2+R_2\cdot I_1 &amp;
+\end{align*}
+\end{split}\]</div>
+</div>
+</div>
+</div>
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
+<div class="sd-card-body docutils">
+<div class="math notranslate nohighlight">
+\[\begin{split}
+\begin{align*}
+I_1&amp;=G_1\cdot U_1+G_2\cdot \left(U_1-U_2\right)\\
+I_2&amp;=G_3\cdot U_2+G_2\cdot \left( U_2- U_1\right)
+\end{align*}
+\end{split}\]</div>
+</div>
+</div>
+</div>
 <div class="toggle docutils container">
 <blockquote>
-<div><div class="math notranslate nohighlight">
-\[\begin{split}
+<div><p>$$
 \begin{bmatrix}
-U_1\\
+U_1\
 U_2
 \end{bmatrix}
 =
 \begin{bmatrix}
-R_1+R_2&amp;R_2\\
+R_1+R_2&amp;R_2\
 R_2&amp;R_2+R_3
 \end{bmatrix}
 \cdot
 \begin{bmatrix}
-I_1\\
+I_1\
 I_2
-\end{bmatrix}
-\quad\quad\quad
-\begin{bmatrix}
-I_1\\
+\end{bmatrix}</p>
+</div></blockquote>
+</div>
+<div class="toggle docutils container">
+<h1 class="rubric" id="begin-bmatrix-i-1-i-2-end-bmatrix">\begin{bmatrix}
+I_1\
 I_2
-\end{bmatrix}
-=
-\begin{bmatrix}
-G_1+G_2&amp;-G_2\\
+\end{bmatrix}</h1>
+<p>\begin{bmatrix}
+G_1+G_2&amp;-G_2\
 -G_1&amp;G_2+G_3
 \end{bmatrix}
 \cdot
 \begin{bmatrix}
-U_1\\
+U_1\
 U_2
 \end{bmatrix}
-\end{split}\]</div>
-</div></blockquote>
+$$</p>
+</div>
+</div>
 </div>
 </li>
 <li><p>Invert the resistance matrix and the admittance matrix of <a class="reference internal" href="#ref-ex42"><span class="std std-ref">exercise 4.2</span></a>:</p>
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row sd-g-2 sd-g-xs-2 sd-g-sm-2 sd-g-md-2 sd-g-lg-2 docutils">
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
+<div class="sd-card-body docutils">
 <div class="math notranslate nohighlight">
 \[\begin{split}
-    \begin{bmatrix}
-    R_1+R_2&amp;R_2\\
-    R_2&amp;R_2
-    \end{bmatrix}^{-1}
-    =
-    \hspace{5cm}
-    \begin{bmatrix}
-    G_1&amp;-G_1\\
-    -G_1&amp;G_1+G_2
-    \end{bmatrix}^{-1}
-    =
-    \end{split}\]</div>
+\begin{bmatrix}
+R_1+R_2&amp;R_2\\
+R_2&amp;R_2
+\end{bmatrix}^{-1}
+\end{split}\]</div>
+</div>
+</div>
+</div>
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
+<div class="sd-card-body docutils">
+<div class="math notranslate nohighlight">
+\[\begin{split}
+\begin{bmatrix}
+G_1&amp;-G_1\\
+-G_1&amp;G_1+G_2
+\end{bmatrix}^{-1}
+\end{split}\]</div>
+</div>
+</div>
+</div>
 <div class="toggle docutils container">
 <blockquote>
 <div><div class="math notranslate nohighlight">
@@ -1000,6 +1111,8 @@ R_2&amp;R_2
 \end{bmatrix}
 \end{split}\]</div>
 </div></blockquote>
+</div>
+</div>
 </div>
 </li>
 <li><p>Compare the inverse resistance matrix with the original admittance matrix, and the inverse admittance matrix with the original resistance matrix.</p>

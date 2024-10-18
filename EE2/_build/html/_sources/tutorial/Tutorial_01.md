@@ -20,33 +20,49 @@ kernelspec:
 ---
 
 The purpose of this tutorial is to repeat basic matrix calculus operations. The following 2 x 2 matrices are provided in general form:
+::::{grid}
+:gutter: 4
 
+:::{grid-item-card}
 $$
 M_1=
 \begin{bmatrix}
 A&B\\
 C&D
 \end{bmatrix}
-\quad
+$$
+:::
+
+:::{grid-item-card}
+$$
 M_2=
 \begin{bmatrix}
 E&F\\
 G&H
 \end{bmatrix}
-\quad
+$$
+:::
+
+:::{grid-item-card}
+$$
 M_3=
 \begin{bmatrix}
 I&J\\
 K&L
 \end{bmatrix}
-\quad
+$$
+:::
+
+:::{grid-item-card}
+$$
 M_4=
 \begin{bmatrix}
 D&-B\\
 -C&A
 \end{bmatrix}
 $$
-
+:::
+::::
 
 ### Exercise 1: Matrix addition
 
@@ -118,6 +134,8 @@ $$
     C \cdot E + D \cdot G & C \cdot F + D \cdot H
     \end{bmatrix}
     $$
+    ```
+
     ```{toggle}
     > $$M_1 \cdot M_3 =
     \begin{bmatrix}
@@ -125,6 +143,8 @@ $$
     C \cdot I + D \cdot K & C \cdot J + D \cdot L
     \end{bmatrix}
     $$
+    ```
+
     ```{toggle}
     > $$
     M_2 \cdot M_3 =
@@ -133,6 +153,8 @@ $$
     G \cdot I + H \cdot K & G \cdot J + H \cdot L
     \end{bmatrix}
     $$
+    ```
+
     ```{toggle}
     > $$
     M_3 \cdot M_2 =
@@ -141,6 +163,8 @@ $$
     E \cdot K + G \cdot L & F \cdot K + H \cdot L
     \end{bmatrix}
     $$
+    ```
+
     ```{toggle}
     > $$
     M_1 \cdot M_4 =
@@ -154,6 +178,8 @@ $$
     0 & 1
     \end{bmatrix}
     $$
+    ```
+
     ```{toggle}
     > $$
     M_4 \cdot M_1 =
@@ -299,7 +325,10 @@ $$
 ### Exercise 4: Equation systems
 
 1. What are the results of the following multiplication operations?
+    ::::{grid}
+    :gutter: 3
 
+    :::{grid-item-card}
     $$
     \begin{bmatrix}
     A&B\\\
@@ -309,8 +338,11 @@ $$
     \begin{bmatrix}
     X\\Y
     \end{bmatrix}
-    =
-    \quad\quad\quad
+    $$
+    :::
+
+    :::{grid-item-card}
+    $$
     \begin{bmatrix}
     R_1+R_2&R_2\\
     R_2&R_2+R_3
@@ -320,8 +352,11 @@ $$
     I_1\\
     I_2
     \end{bmatrix}
-    =
-    \quad\quad\quad
+    $$
+    :::
+
+    :::{grid-item-card}
+    $$
     \begin{bmatrix}
     G_1+G_2&-G_1\\
     -G_2&G_2+G_3
@@ -331,8 +366,9 @@ $$
     U_1\\
     U_2
     \end{bmatrix}
-    =
     $$
+    :::
+    ::::
 
     ```{toggle}
     > $$
@@ -391,7 +427,10 @@ $$
     ```
     (ref:ex42)=
 1. Please expand the following equation systems into ordinary equations:
+    ::::{grid}
+    :gutter: 2
 
+    :::{grid-item-card}
    $$
     \begin{bmatrix}
     U_1\\U_2
@@ -406,7 +445,11 @@ $$
     I_1\\
     I_2
     \end{bmatrix}
-    \quad\quad\quad
+    $$
+    :::
+
+    :::{grid-item-card}
+    $$
     \begin{bmatrix}
     I_1\\
     I_2
@@ -422,7 +465,7 @@ $$
     U_2
     \end{bmatrix}
     $$
-
+    :::
     ```{toggle}
     > $$
     \begin{align*}
@@ -442,14 +485,26 @@ $$
     ```
 
 1. Write the following equations in matrix notation. The voltages U1 and U2 and the currents I1 and I2 should be represented as column vectors which are connected by a resistance or an admittance matrix (see [exercise 4.2](ref:ex42)):
+     ::::{grid}
+    :gutter: 2
 
+    :::{grid-item-card}
     $$
     \begin{align*}
-    U_1&=R_1\cdot I_1+R_2\cdot I_1+R_2\cdot I_2 \quad\quad\quad&I_1&=G_1\cdot U_1+G_2\cdot \left(U_1-U_2\right)\\
-    U_2&=R_2\cdot I_2+R_3\cdot I_2+R_2\cdot I_1 &I_2&=G_3\cdot U_2+G_2\cdot \left( U_2- U_1\right)
+    U_1&=R_1\cdot I_1+R_2\cdot I_1+R_2\cdot I_2\\
+    U_2&=R_2\cdot I_2+R_3\cdot I_2+R_2\cdot I_1 &
     \end{align*}
     $$
+    :::
 
+    :::{grid-item-card}
+    $$
+    \begin{align*}
+    I_1&=G_1\cdot U_1+G_2\cdot \left(U_1-U_2\right)\\
+    I_2&=G_3\cdot U_2+G_2\cdot \left( U_2- U_1\right)
+    \end{align*}
+    $$
+    :::
 
     ```{toggle}
     > $$
@@ -467,7 +522,9 @@ $$
     I_1\\
     I_2
     \end{bmatrix}
-    \quad\quad\quad
+    ```
+
+    ```{toggle}
     \begin{bmatrix}
     I_1\\
     I_2
@@ -486,20 +543,26 @@ $$
     ```
 
 1. Invert the resistance matrix and the admittance matrix of [exercise 4.2](ref:ex42):
+    ::::{grid}
+    :gutter: 2
 
+    :::{grid-item-card}
     $$
     \begin{bmatrix}
     R_1+R_2&R_2\\
     R_2&R_2
     \end{bmatrix}^{-1}
-    =
-    \hspace{5cm}
+    $$
+    :::
+
+    :::{grid-item-card}
+    $$
     \begin{bmatrix}
     G_1&-G_1\\
     -G_1&G_1+G_2
     \end{bmatrix}^{-1}
-    =
     $$
+    :::
 
     ```{toggle}
     > $$
