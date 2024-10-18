@@ -12,9 +12,10 @@ kernelspec:
   language: python
   name: python3
 ---
-# Tutorial
+(ref:Tutorial01)=
+# Tutorial 01
 
-## Tutorial 01 -- Repetition of Matrix Calculus
+## Repetition of Matrix Calculus
 
 ---
 
@@ -254,7 +255,8 @@ $$
     $$
     ```
 
-1. What are the results of $M_1\cdot M_1^{-1}$ and $M_1^{-1}\cdot M_1$
+    (ref:Exercise032)=
+1. What are the results of $M_1\cdot M_1^{-1}$ and $M_1^{-1}\cdot M_1$?
 
     ```{toggle}
     > $$
@@ -288,7 +290,7 @@ $$
     $$
     ```
 
-1. What is the term for the type of matrix you calculated in exercise 3.2?
+1. What is the term for the type of matrix you calculated in [exercise 3.2](ref:Exercise032)?
 
     ```{toggle}
     > The matrix is called the identity matrix.
@@ -350,7 +352,7 @@ $$
     $$
     ```
 
-    ```{toggle}
+   ```{toggle}
     > $$
     \begin{bmatrix}
         R_1+R_2&R_2\\
@@ -370,8 +372,6 @@ $$
     ```
 
     ```{toggle}
-    :class: dropdown
-    ```{toggle}
     > $$
     \begin{bmatrix}
         G_1+G_2&-G_1\\
@@ -389,7 +389,7 @@ $$
     \end{bmatrix}
     $$
     ```
-
+    (ref:ex42)=
 1. Please expand the following equation systems into ordinary equations:
 
    $$
@@ -441,7 +441,7 @@ $$
     $$
     ```
 
-1. Write the following equations in matrix notation. The voltages U1 and U2 and the currents I1 and I2 should be represented as column vectors which are connected by a resistance or an admittance matrix (see exercise 4.2):
+1. Write the following equations in matrix notation. The voltages U1 and U2 and the currents I1 and I2 should be represented as column vectors which are connected by a resistance or an admittance matrix (see [exercise 4.2](ref:ex42)):
 
     $$
     \begin{align*}
@@ -485,7 +485,7 @@ $$
     $$
     ```
 
-1. Invert the resistance matrix and the admittance matrix of exercise 4.2:
+1. Invert the resistance matrix and the admittance matrix of [exercise 4.2](ref:ex42):
 
     $$
     \begin{bmatrix}
@@ -493,15 +493,21 @@ $$
     R_2&R_2
     \end{bmatrix}^{-1}
     =
-    \hspace{1cm}
+    \hspace{5cm}
     \begin{bmatrix}
     G_1&-G_1\\
     -G_1&G_1+G_2
     \end{bmatrix}^{-1}
+    =
     $$
 
     ```{toggle}
     > $$
+     \begin{bmatrix}
+    R_1+R_2&R_2\\
+    R_2&R_2
+    \end{bmatrix}^{-1}
+    =
     \frac{1}{R_1\cdot R_2}
     \begin{bmatrix}
     R_2&-R_2\\
@@ -512,7 +518,16 @@ $$
     G_1 &-G_1\\
     -G_1&G_1+G_2
     \end{bmatrix}
-    \quad\quad\quad
+    $$
+    ```
+
+    ```{toggle}
+    > $$
+    \begin{bmatrix}
+    G_1&-G_1\\
+    -G_1&G_1+G_2
+    \end{bmatrix}^{-1}
+    =
     \frac{1}{G_1\cdot G_2}
     \begin{bmatrix}
     G_1+G_2&G_1\\
