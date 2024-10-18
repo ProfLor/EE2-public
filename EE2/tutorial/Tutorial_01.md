@@ -240,7 +240,8 @@ $$
 1. What do you notice about the products in [exercise 2.2](ref:Ex22)?
 
     ```{toggle}	
-    > The matrices are not commutative, i.e., $M_\mathrm{i}\cdot M_\mathrm{j} \neq M_\mathrm{i}\cdot M_\mathrm{i}$.
+    > In general, matrix products are not commutative, i. e., $M_\mathrm{i}\cdot M_\mathrm{j} \neq M_\mathrm{i}\cdot M_\mathrm{i}$. One exepction is the product of a matrix with its inverse (here: $M_1\cdot M_4$ and $M_4 \cdot M_1$), which results in the identity matrix. 
+    ```
 
     (ref:Ex23)=
 1. Compare the two products $\left(M_1\cdot M_2\right)\cdot M_3$ and $M_1\cdot \left(M_2\cdot M_3\right)$.
@@ -293,7 +294,7 @@ $$
 1. What do you notice about the products in [exercise 2.3](ref:ex23)?
 
     ```{toggle}
-    > The products are equal, i.e., $\left(M_1\cdot M_2\right)\cdot M_3 = M_1\cdot \left(M_2\cdot M_3\right)$.
+    > The products are equal, i. e., $\left(M_1\cdot M_2\right)\cdot M_3 = M_1\cdot \left(M_2\cdot M_3\right)$.
     ```
 
 ### Exercise 3: Matrix inversion
