@@ -66,28 +66,9 @@ $$
 
 ### Exercise 1: Matrix addition
 
-1. Calculate the sum  $M_2+M_3$ and the difference  $M_2-M_3$.
+1. Calculate the following sums:
 
-    ```{toggle}
-    > $$
-    M_2+M_3=
-    \begin{bmatrix}
-    E+I&F+J\\
-    G+K&H+L
-    \end{bmatrix}
-    $$
-    ```
-
-    ```{toggle}
-    > $$M_2-M_3=
-    \begin{bmatrix}
-    E-I&F-J\\
-    G-K&H-L
-    \end{bmatrix}
-    $$
-    ```
-
-1. Calculate the sum $M_1+M_4$ and the difference $M_1-M_4$.
+    $M_1+M_4$:
 
     ```{toggle}
     > $$
@@ -99,6 +80,24 @@ $$
     $$
     ```
 
+    $M_2+M_3$:
+
+    ```{toggle}
+    > $$
+    M_2+M_3=
+    \begin{bmatrix}
+    E+I&F+J\\
+    G+K&H+L
+    \end{bmatrix}
+    $$
+    ```
+
+
+
+1. Calculate following differences:
+
+    $M_1-M_4$:
+
     ```{toggle}
     > $$
     M_1-M_4=
@@ -109,22 +108,56 @@ $$
     $$
     ```
 
-### Exercise 2: Matrix multiplication
-
-1. Calculate the determinants of all matrices ${M_1}$, ${M_2}$, ${M_3}$ and ${M_4}$.
+    $M_2-M_3$:
 
     ```{toggle}
-    > $$
-    \begin{align*}
-    \det{M_1} &= A \cdot D - B \cdot C \\
-    \det{M_2} &= E \cdot H - F \cdot G \\
-    \det{M_3} &= I \cdot L - J \cdot K \\
-    \det{M_4} &= D \cdot A + B \cdot C
-    \end{align*}
+    > $$M_2-M_3=
+    \begin{bmatrix}
+    E-I&F-J\\
+    G-K&H-L
+    \end{bmatrix}
     $$
     ```
 
-1. Calculate the products $M_1\cdot M_2$, $M_1\cdot M_3$, $M_2\cdot M_3$, $M_3\cdot M_2$, $M_1\cdot M_4$ and $M_4\cdot M_1$.
+### Exercise 2: Matrix multiplication
+
+1. Calculate the determinants of all matrices:
+
+    $\det{M_1}$:
+
+    ```{toggle}
+    > $$
+    \det{M_1} = A \cdot D - B \cdot
+    $$
+    ```
+
+    $\det{M_2}$:
+
+    ```{toggle}
+    > $$
+    \det{M_2} = E \cdot H - F \cdot G
+    $$
+    ```
+
+    $\det{M_3}$:
+
+    ```{toggle}
+    > $$
+    \det{M_3} = I \cdot L - J \cdot K
+    $$
+    ```
+
+    $\det{M_4}$:
+
+    ```{toggle}
+    > $$
+    \det{M_4} = D \cdot A + B \cdot C
+    $$
+    ```
+    (ref:Ex22)=
+1. Calculate the following products:
+
+    $M_1\cdot M_2$:
 
     ```{toggle}
     > $$
@@ -136,6 +169,8 @@ $$
     $$
     ```
 
+    $M_1\cdot M_3$:
+
     ```{toggle}
     > $$M_1 \cdot M_3 =
     \begin{bmatrix}
@@ -144,6 +179,8 @@ $$
     \end{bmatrix}
     $$
     ```
+
+    $M_2\cdot M_3$:
 
     ```{toggle}
     > $$
@@ -155,6 +192,8 @@ $$
     $$
     ```
 
+    $M_3\cdot M_2$:
+
     ```{toggle}
     > $$
     M_3 \cdot M_2 =
@@ -164,6 +203,8 @@ $$
     \end{bmatrix}
     $$
     ```
+
+    $M_1\cdot M_4$:
 
     ```{toggle}
     > $$
@@ -180,6 +221,8 @@ $$
     $$
     ```
 
+    $M_4\cdot M_1$:
+
     ```{toggle}
     > $$
     M_4 \cdot M_1 =
@@ -194,8 +237,15 @@ $$
     \end{bmatrix}
     $$
     ```
+1. What do you notice about the products in [exercise 2.2](ref:Ex22)?
 
+    ```{toggle}	
+    > The matrices are not commutative, i.e., $M_1\cdot M_2 \neq M_2\cdot M_1$.
+
+    (ref:Ex23)=
 1. Compare the two products $\left(M_1\cdot M_2\right)\cdot M_3$ and $M_1\cdot \left(M_2\cdot M_3\right)$.
+
+    $\left(M_1\cdot M_2\right)\cdot M_3$:
 
     ```{toggle}
     > $$
@@ -218,6 +268,8 @@ $$
     $$
     ```
 
+    $M_1\cdot \left(M_2\cdot M_3\right)$:
+
     ```{toggle}
     > $$
     M_1\cdot \left(M_2\cdot M_3\right)\\
@@ -238,10 +290,17 @@ $$
     \end{bmatrix}
     $$
     ```
+1. What do you notice about the products in [exercise 2.3](ref:ex23)?
+
+    ```{toggle}
+    > The products are equal, i.e., $\left(M_1\cdot M_2\right)\cdot M_3 = M_1\cdot \left(M_2\cdot M_3\right)$.
+    ```
 
 ### Exercise 3: Matrix inversion
 
-1. For all four matrices $M_1$ to $M_4$: calculate the inverse matrices $M_1^{-1}$ to $M_4^{-1}$.
+1. For all four matrices $M_1$ to $M_4$ calculate the inverse matrices.
+
+    $M_1^{-1}$:
 
     ```{toggle}
     > $$
@@ -254,6 +313,8 @@ $$
     $$
     ```
 
+    $M_2^{-1}$:
+
     ```{toggle}
     > $$
     M_2^{-1}=
@@ -265,6 +326,8 @@ $$
     $$
     ```
 
+    $M_3^{-1}$:
+
     ```{toggle}
     > $$
     M_3^{-1}=
@@ -275,6 +338,8 @@ $$
     \end{bmatrix}
     $$
     ```
+
+    $M_4^{-1}$:
 
     ```{toggle}
     > $$
@@ -289,6 +354,8 @@ $$
 
     (ref:Exercise032)=
 1. What are the results of $M_1\cdot M_1^{-1}$ and $M_1^{-1}\cdot M_1$?
+
+    $M_1\cdot M_1^{-1}$:
 
     ```{toggle}
     > $$
@@ -306,6 +373,8 @@ $$
     $$
     ```
 
+    $M_1^{-1}\cdot M_1$:
+
     ```{toggle}
     > $$
     M_1^{-1}\cdot M_1=
@@ -321,11 +390,9 @@ $$
     \end{bmatrix}
     $$
     ```
-
 1. What is the term for the type of matrix you calculated in [exercise 3.2](ref:Exercise032)?
-
     ```{toggle}
-    > The matrix is called the identity matrix.
+    > The matrix is called the identity matrix. 
     ````
 
 ### Exercise 4: Equation systems
