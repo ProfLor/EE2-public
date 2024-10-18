@@ -103,8 +103,8 @@ $$
     > $$
     M_1-M_4=
     \begin{bmatrix}
-    A-D&2 B\\
-    2 C&D-A
+    A-D&2\,B\\
+    2\, C&D-A
     \end{bmatrix}
     $$
     ```
