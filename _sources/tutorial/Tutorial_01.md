@@ -546,7 +546,7 @@ $$
     $$
     ```
 
-1. Write the following equations in matrix notation. The voltages U1 and U2 and the currents I1 and I2 should be represented as column vectors which are connected by a resistance or an admittance matrix (see [exercise 4.2](ref:ex42)):
+1. Write the following equations in matrix notation. The voltages U1 and U2 and the currents I1 and I2 should be represented as column vectors which are connected by a resistance or an conductance matrix (see [exercise 4.2](ref:ex42)):
 
     $$
     \begin{align*}
@@ -600,7 +600,7 @@ $$
     $$
     ```
 
-1. Invert the resistance matrix and the admittance matrix of [exercise 4.2](ref:ex42):
+1. Invert the resistance matrix and the conductance matrix of [exercise 4.2](ref:ex42):
 
     $$
     \begin{bmatrix}
@@ -656,7 +656,7 @@ $$
     $$
     ```
 
-1. Compare the inverse resistance matrix with the original admittance matrix, and the inverse admittance matrix with the original resistance matrix.
+1. Compare the inverse resistance matrix with the original conductance matrix, and the inverse conductance matrix with the original resistance matrix.
 
    ```{toggle}
     > The inverse resistance matrix is the same as the original conductance matrix, and the inverse conductance matrix is the same as the original resistance matrix.
