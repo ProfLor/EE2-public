@@ -62,7 +62,7 @@
     <script>DOCUMENTATION_OPTIONS.pagename = 'tutorial/Tutorial_01';</script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="prev" title="Electrical Engineering 2 – Class Notes" href="../intro.html" />
+    <link rel="prev" title="Tutorials" href="../tutorial.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -181,7 +181,10 @@
             </li>
         </ul>
         <ul class="current nav bd-sidenav">
-<li class="toctree-l1 current active"><a class="current reference internal" href="#">Tutorial 01</a></li>
+<li class="toctree-l1 current active has-children"><a class="reference internal" href="../tutorial.html">Tutorials</a><details open="open"><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul class="current">
+<li class="toctree-l2 current active"><a class="current reference internal" href="#">Tutorial 01</a></li>
+</ul>
+</details></li>
 </ul>
 
     </div>
@@ -396,7 +399,7 @@ document.write(`
                 <article class="bd-article">
                   
   <section class="tex2jax_ignore mathjax_ignore" id="tutorial-01">
-<h1>Tutorial 01<a class="headerlink" href="#tutorial-01" title="Link to this heading">#</a></h1>
+<span id="ref-tutorial01"></span><h1>Tutorial 01<a class="headerlink" href="#tutorial-01" title="Link to this heading">#</a></h1>
 <section id="repetition-of-matrix-calculus">
 <h2>Repetition of Matrix Calculus<a class="headerlink" href="#repetition-of-matrix-calculus" title="Link to this heading">#</a></h2>
 <hr class="docutils" />
@@ -691,7 +694,7 @@ L&amp;-J\\
 </div>
 </div>
 </li>
-<li><p>What are the results of <span class="math notranslate nohighlight">\(M_1\cdot M_1^{-1}\)</span> and <span class="math notranslate nohighlight">\(M_1^{-1}\cdot M_1\)</span></p>
+<li id="ref-exercise032"><p>What are the results of <span class="math notranslate nohighlight">\(M_1\cdot M_1^{-1}\)</span> and <span class="math notranslate nohighlight">\(M_1^{-1}\cdot M_1\)</span>?</p>
 <div class="toggle docutils container">
 <blockquote>
 <div><div class="math notranslate nohighlight">
@@ -729,7 +732,7 @@ A \cdot D - B \cdot C &amp; 0\\
 </div></blockquote>
 </div>
 </li>
-<li><p>What is the term for the type of matrix you calculated in exercise 3.2?</p>
+<li><p>What is the term for the type of matrix you calculated in <a class="reference internal" href="#ref-exercise032"><span class="std std-ref">exercise 3.2</span></a>?</p>
 <div class="toggle docutils container">
 <blockquote>
 <div><p>The matrix is called the identity matrix.</p>
@@ -800,24 +803,23 @@ C\cdot X+D\cdot Y
 <blockquote>
 <div><div class="math notranslate nohighlight">
 \[\begin{split}
-\begin{bmatrix}
-    R_1+R_2&amp;R_2\\
-    R_2&amp;R_2+R_3
-    \end{bmatrix}
-    \cdot
-    \begin{bmatrix}
-    I_1\\
-    I_2
-    \end{bmatrix}
-    =
-\begin{bmatrix}
-\left(R_1+R_2\right)\cdot I_1&amp; R_2\cdot I_2\\
-R_2\cdot I_1&amp;\left(R_2+R_3\right)\cdot I_2
-\end{bmatrix}
-\end{split}\]</div>
+ \begin{bmatrix}
+     R_1+R_2&amp;R_2\\
+     R_2&amp;R_2+R_3
+     \end{bmatrix}
+     \cdot
+     \begin{bmatrix}
+     I_1\\
+     I_2
+     \end{bmatrix}
+     =
+ \begin{bmatrix}
+ \left(R_1+R_2\right)\cdot I_1&amp; R_2\cdot I_2\\
+ R_2\cdot I_1&amp;\left(R_2+R_3\right)\cdot I_2
+ \end{bmatrix}
+ \end{split}\]</div>
 </div></blockquote>
 </div>
-<div class="toggle docutils container">
 <div class="toggle docutils container">
 <blockquote>
 <div><div class="math notranslate nohighlight">
@@ -839,9 +841,8 @@ R_2\cdot I_1&amp;\left(R_2+R_3\right)\cdot I_2
 \end{split}\]</div>
 </div></blockquote>
 </div>
-</div>
 </li>
-<li><p>Please expand the following equation systems into ordinary equations:</p>
+<li id="ref-ex42"><p>Please expand the following equation systems into ordinary equations:</p>
 <div class="math notranslate nohighlight">
 \[\begin{split}
     \begin{bmatrix}
@@ -896,7 +897,7 @@ I_2&amp;=-G_1\cdot U_1+\left(G_1+G_2\right)\cdot U_2
 </div></blockquote>
 </div>
 </li>
-<li><p>Write the following equations in matrix notation. The voltages U1 and U2 and the currents I1 and I2 should be represented as column vectors which are connected by a resistance or an admittance matrix (see exercise 4.2):</p>
+<li><p>Write the following equations in matrix notation. The voltages U1 and U2 and the currents I1 and I2 should be represented as column vectors which are connected by a resistance or an admittance matrix (see <a class="reference internal" href="#ref-ex42"><span class="std std-ref">exercise 4.2</span></a>):</p>
 <div class="math notranslate nohighlight">
 \[\begin{split}
     \begin{align*}
@@ -941,7 +942,7 @@ U_2
 </div></blockquote>
 </div>
 </li>
-<li><p>Invert the resistance matrix and the admittance matrix of exercise 4.2:</p>
+<li><p>Invert the resistance matrix and the admittance matrix of <a class="reference internal" href="#ref-ex42"><span class="std std-ref">exercise 4.2</span></a>:</p>
 <div class="math notranslate nohighlight">
 \[\begin{split}
     \begin{bmatrix}
@@ -949,16 +950,22 @@ U_2
     R_2&amp;R_2
     \end{bmatrix}^{-1}
     =
-    \hspace{1cm}
+    \hspace{5cm}
     \begin{bmatrix}
     G_1&amp;-G_1\\
     -G_1&amp;G_1+G_2
     \end{bmatrix}^{-1}
+    =
     \end{split}\]</div>
 <div class="toggle docutils container">
 <blockquote>
 <div><div class="math notranslate nohighlight">
 \[\begin{split}
+ \begin{bmatrix}
+R_1+R_2&amp;R_2\\
+R_2&amp;R_2
+\end{bmatrix}^{-1}
+=
 \frac{1}{R_1\cdot R_2}
 \begin{bmatrix}
 R_2&amp;-R_2\\
@@ -969,7 +976,18 @@ R_2&amp;-R_2\\
 G_1 &amp;-G_1\\
 -G_1&amp;G_1+G_2
 \end{bmatrix}
-\quad\quad\quad
+\end{split}\]</div>
+</div></blockquote>
+</div>
+<div class="toggle docutils container">
+<blockquote>
+<div><div class="math notranslate nohighlight">
+\[\begin{split}
+\begin{bmatrix}
+G_1&amp;-G_1\\
+-G_1&amp;G_1+G_2
+\end{bmatrix}^{-1}
+=
 \frac{1}{G_1\cdot G_2}
 \begin{bmatrix}
 G_1+G_2&amp;G_1\\
@@ -1027,12 +1045,12 @@ R_2&amp;R_2
                   
 <div class="prev-next-area">
     <a class="left-prev"
-       href="../intro.html"
+       href="../tutorial.html"
        title="previous page">
       <i class="fa-solid fa-angle-left"></i>
       <div class="prev-next-info">
         <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title">Electrical Engineering 2 – Class Notes</p>
+        <p class="prev-next-title">Tutorials</p>
       </div>
     </a>
 </div>

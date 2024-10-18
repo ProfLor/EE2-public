@@ -7,7 +7,7 @@
 **Instructors:** Prof. Dr. Henning Lorrmann & Prof. Dr. Tobias Kaupp
 
 
-Welcome to the Electrical Engineering 2 course. This course is taught by Prof. Dr. Henning Lorrmann and Prof. Dr. Tobias Kaupp, Technische Hochschule Würzburg-Schweinfurt.
+Welcome to the Electrical Engineering 2 course. This course is taught by Prof. Dr. Tobias Kaupp and Prof. Dr. Henning Lorrmann, Technische Hochschule Würzburg-Schweinfurt.
 
 ```{tableofcontents}
 ```
