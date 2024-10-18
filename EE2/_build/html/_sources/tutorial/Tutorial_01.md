@@ -534,7 +534,7 @@ $$
     ```
 
     ```{toggle}
-    $$
+    > $$
     \begin{bmatrix}
     I_1\\
     I_2
