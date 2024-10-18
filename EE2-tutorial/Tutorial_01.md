@@ -15,7 +15,7 @@ kernelspec:
 
 # Tutorial 01
 
-## Repetition of the Matrix Calculus
+## Repetition of Matrix Calculus
 
 ---
 
@@ -95,7 +95,7 @@ $$
 
 ### Exercise 2: Matrix multiplication
 
-1. Calculate the determinants of all matrices $\det{M_1}$, $\det{M_2}$, $\det{M_3}$ and $\det{M_4}$.
+1. Calculate the determinants of all matrices ${M_1}$, ${M_2}$, ${M_3}$ and ${M_4}$.
 
     ```{toggle}
     > $$
@@ -291,9 +291,9 @@ $$
 
 1. What is the term for the type of matrix you calculated in exercise 3.2?
 
-```{toggle}
-> The matrix is called the identity matrix.
-````
+    ```{toggle}
+    > The matrix is called the identity matrix.
+    ````
 
 ### Exercise 4: Equation systems
 
